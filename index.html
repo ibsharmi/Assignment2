@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Location Map Example</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-12">
+            <h1 class="text-center">Company Directory Portal</h1>
+            <div class="form-container">
+              <h3>Employee Registration Form</h3>
+              <form>
+                <div class="form-group">
+                  <label for="fullName">Full Name:</label>
+                  <input type="text" class="form-control" id="fullName" placeholder="Enter full name">
+                </div>
+    
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email">
+                </div>
+    
+                <div class="form-group">
+                  <label for="department">Department:</label>
+                  <select class="form-control" id="department">
+                    <option>IT</option>
+                    <option>HR</option>
+                    <option>Finance</option>
+                    <option>Marketing</option>
+                  </select>
+                </div>
+    
+                <div class="form-group">
+                  <label for="employeeId">Employee ID:</label>
+                  <input type="text" class="form-control" id="employeeId" placeholder="Enter employee ID">
+                </div>
+    
+                <div class="form-group">
+                  <label for="profilePicture">Profile Picture URL:</label>
+                  <input type="text" class="form-control" id="profilePicture">
+                </div>
+    
+                <button type="submit" class="btn btn-primary btn-block">Register Employee</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 class="employee-title">Employee List</h2>
+        <ol class="employee-list">
+            <li><a href="mailto:john@example.com">John Doe - john@example.com</a></li>
+            <li><a href="mailto:jane@example.com">Jane Smith - jane@example.com</a></li>
+        </ol>
+    </div>
+      <div class="container mt-5">
+        <h2 class="text-center mb-4">Employee Details</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>12345</td>
+                    <td>IT</td>
+                    <td><div class="profile-pic">50 x 50</div></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>67890</td>
+                    <td>HR</td>
+                    <td><div class="profile-pic">50 x 50</div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+      
+    
+    <h1 class="text-center">Company Location</h1>
+    <iframe
+        width="1400"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30445.114082394502!2d78.35721780589503!3d17.476971824135216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1727676413423!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </iframe>
+</body>
+</html>
+
+
